@@ -21,7 +21,7 @@ io.on("connection", (socket) => {
   console.log("Socket id is ", socket.id);
   socket.on("userconnect", (data) => {
     console.log("userconnect ", data.displayName, data.meetingid);
-    console.log(userConnections);
+    // console.log(userConnections);
     var other_users = userConnections.filter(
       (p) => p.meeting_id == data.meetingid
     );
