@@ -38,11 +38,17 @@ li.nav-item {
   border: 25px solid white;
   border-radius: 5px;
   box-shadow: 1px 1px 5px grey;
+  width: 650px;
 }
 
 textarea:focus,
 input:focus {
   outline: none !important;
+}
+
+video{
+  height: 300px;
+  width: 400px;
 }
 
 .cursor-pointer {
